@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+}
+
+.rag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.rag a {
+   animation: transitionIn 6s;
+  text-decoration: none;
+  border: 3px solid rgb(25, 25, 27);
+  padding: 22px;
+  border-radius: 20px;
+  color: white;
+  letter-spacing: 8px;
+  background-color:rgba(30, 22, 134, 0.137);
+  font-family: 'Abel', sans-serif; 
+  text-transform: uppercase;      
+}
+
+@keyframes transitionIn {
+  from {
+     opacity: 0;
+     transform: rotateX(-10deg);
+  }
+
+  to {
+      opacity: 1;
+      transform: rotateX(0);
+      transition: ease-in;
+  }
+}
+
