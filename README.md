@@ -39,9 +39,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse projeto apresenta uma interface do jogo God of War Ragnarök na loja da Playstation.
 
-## 🔖 Layout
+## 🔖 Layout e Deploy
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/BPHOdrrzDnuvKPurADmIsW/Codeboost---God-of-War-Ragnarok?node-id=0%3A1&t=0iWcNvsXvLTQLbb5-0/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/BPHOdrrzDnuvKPurADmIsW/Codeboost---God-of-War-Ragnarok?node-id=0%3A1&t=0iWcNvsXvLTQLbb5-0/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo. Acesse esse site por: [Vercel](https://god-of-war-rml.vercel.app/)
+
 
 ## :memo: Licença
 
