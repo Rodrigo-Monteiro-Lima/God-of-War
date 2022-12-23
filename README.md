@@ -1,10 +1,6 @@
 <h1 align="center"> God of War Ragnarök </h1>
 
 <p align="center">
-Projeto desenvolvido durante o evento DEV.PROCESS oferecido pela Codeboost
-</p>
-
-<p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
