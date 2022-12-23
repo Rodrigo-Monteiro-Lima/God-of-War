@@ -215,3 +215,100 @@
   }
 }
 
+.s-story {
+  width: 100%;
+  padding-top: 16rem;
+  padding-bottom: 8rem;
+  background-image: url('../assets/imgs/bg-story.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  .container {
+      display: flex;
+      align-items: center;
+  }
+  .left {
+      width: 100%;
+      max-width: 62.9rem;
+      h2 {
+          margin-top: 2.8rem;
+          margin-bottom: 2.4rem;
+          max-width: 50.2rem;
+      }
+      p {
+          margin-bottom: 5.6rem;
+      }
+      .corp {
+          display: flex;
+          align-items: center;
+          p {
+              margin-bottom: 0;
+              font-size: 1.6rem;
+              line-height: 160%;
+              max-width: 32.4rem;
+              margin-left: 4.6rem;
+          }
+      }
+  }
+  .kratos-atreus {
+      position: relative;
+      left: 11rem;
+      top: -8rem;
+  }
+  @media(max-width: 1200px) {
+      background-image: none;
+      padding: 6rem 0;
+      .container {
+          flex-direction: column-reverse;
+      }
+      .left {
+          max-width: 100%;
+          text-align: center;
+          .subtitle {
+              justify-content: center;
+          }
+          h2 {
+              max-width: 75%;
+              margin: 2rem auto;
+          }
+          .corp {
+              justify-content: center;
+          }
+      }
+      .kratos-atreus {
+          left: 0;
+          top: 0;
+          margin-bottom: 6rem;
+      }
+
+  }
+  @media(max-width: 991px) {
+      .left {
+          h2 {
+              max-width: 95%;
+          }
+      }
+  }
+  @media(max-width: 560px) {
+      .left {
+          h2 {
+              font-size: 3rem;
+          }
+          p {
+              font-size: 1.6rem;
+              margin-bottom: 4rem;
+          }
+          .corp {
+              flex-direction: column;
+              p{
+                  margin-left: 0;
+                  margin-top: 3rem;
+              }
+          }
+      }
+      .kratos-atreus {
+          margin-bottom: 4rem ;
+      }
+  }
+}
+
