@@ -167,3 +167,50 @@
       }
   }
 }
+
+.s-info-geral{
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  ul {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      li {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          span {
+              display: block;
+              text-align: center;
+              font-weight: 400;
+              font-size: 1.6rem;
+              line-height: 160%;
+              color: #BDC2CB;
+              margin-top: 1.2rem;
+          }
+      }
+  }
+  @media(max-width: 1200px) {
+      padding: 4rem 0;
+      height: auto;
+      ul {
+          flex-wrap: wrap;
+          gap: 3rem 0;
+          li {
+              width: 33.3%;
+          }
+      }
+  }
+  @media(max-width: 560px) {
+      ul {
+          li {
+              width: 50%;
+              span {
+                  max-width: 14.5rem;
+              }
+          }
+      }
+  }
+}
